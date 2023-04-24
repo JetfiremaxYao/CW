@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T04:09:38.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="7gFNdeoXmNw_m1-OmguF" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T04:16:13.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="3HRQRv3tKiAXFqqeZzVn" version="21.2.1" type="github" pages="2">
   <diagram name="第 1 页" id="F75F39Ndx9XzVUsRWSvf">
-    <mxGraphModel dx="1713" dy="1134" grid="0" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2150" dy="1378" grid="0" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,55 +76,6 @@
         <mxCell id="sw15Z7x13JnrboLt79yL-125" value="represent database tables as objects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="891" y="221" width="150" height="98.75" as="geometry" />
         </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-127" value="&lt;h2&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Web container (Tomcat)&lt;/font&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-196" y="557" width="154" height="114" as="geometry" />
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sw15Z7x13JnrboLt79yL-131" target="sw15Z7x13JnrboLt79yL-133">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-131" value="Business Logic Layer contains the Service, DAO, Entity, Interceptor, and Util" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="546" y="554" width="120" height="116" as="geometry" />
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-133" value="Data layer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="778" y="554" width="120" height="118" as="geometry" />
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sw15Z7x13JnrboLt79yL-127" target="sw15Z7x13JnrboLt79yL-139">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="615" as="sourcePoint" />
-            <mxPoint x="360" y="614" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sw15Z7x13JnrboLt79yL-139" target="sw15Z7x13JnrboLt79yL-144">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sw15Z7x13JnrboLt79yL-139" target="sw15Z7x13JnrboLt79yL-152">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-139" value="&lt;h3&gt;front controller (DispatcherServlet) &lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="14" y="593" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sw15Z7x13JnrboLt79yL-144" target="sw15Z7x13JnrboLt79yL-131">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="336" y="623" as="sourcePoint" />
-            <mxPoint x="154" y="623" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="294" y="623" />
-              <mxPoint x="294" y="623" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-144" value="controller" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="582" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-148" value="Handler mapping" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="174" y="582" width="126" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="sw15Z7x13JnrboLt79yL-152" value="View" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="24" y="703" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="sw15Z7x13JnrboLt79yL-154" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="450" y="255.75" width="50" height="180.5" as="geometry" />
         </mxCell>
@@ -148,6 +99,63 @@
         </mxCell>
         <mxCell id="sw15Z7x13JnrboLt79yL-172" value="&lt;h2&gt;Model（M）&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="714" width="152" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NP8lcYCkT78SGfm43iYN" name="第 2 页">
+    <mxGraphModel dx="1450" dy="187" grid="0" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-1" value="&lt;h2&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Web container (Tomcat)&lt;/font&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="557" width="154" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JCOrITzG0TPuZVTo8C6O-3" target="JCOrITzG0TPuZVTo8C6O-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-3" value="Business Logic Layer contains the Service, DAO, Entity, Interceptor, and Util" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546" y="554" width="120" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-4" value="Data layer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="778" y="554" width="120" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JCOrITzG0TPuZVTo8C6O-1" target="JCOrITzG0TPuZVTo8C6O-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="615" as="sourcePoint" />
+            <mxPoint x="360" y="614" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JCOrITzG0TPuZVTo8C6O-8" target="JCOrITzG0TPuZVTo8C6O-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JCOrITzG0TPuZVTo8C6O-8" target="JCOrITzG0TPuZVTo8C6O-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-8" value="&lt;h3&gt;front controller (DispatcherServlet) &lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="593" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JCOrITzG0TPuZVTo8C6O-11" target="JCOrITzG0TPuZVTo8C6O-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="336" y="623" as="sourcePoint" />
+            <mxPoint x="154" y="623" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="294" y="623" />
+              <mxPoint x="294" y="623" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-11" value="controller" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="582" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-12" value="Handler mapping" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="174" y="582" width="126" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="JCOrITzG0TPuZVTo8C6O-13" value="View" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="24" y="703" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
