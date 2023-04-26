@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T04:21:49.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="XnY97nOiRtqvHhAS3RMH" version="21.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-26T04:24:35.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="tR1YN7Z3MPC7cLnrW4uU" version="21.2.1" type="github" pages="3">
   <diagram name="system architecture" id="F75F39Ndx9XzVUsRWSvf">
     <mxGraphModel dx="1900" dy="1239" grid="0" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,7 +104,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y1_Cjlw7siVRExbIenBv" name="highlevel softwre">
-    <mxGraphModel dx="3825" dy="3868" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4700" dy="4357" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -460,6 +460,9 @@
         <mxCell id="_B1_CrF3TVi6BJC2zmLu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZcH5zqsUxlnSrDGplCy-109" target="_B1_CrF3TVi6BJC2zmLu-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_B1_CrF3TVi6BJC2zmLu-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZcH5zqsUxlnSrDGplCy-109" target="_B1_CrF3TVi6BJC2zmLu-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FZcH5zqsUxlnSrDGplCy-109" value="Administor main page" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-224" y="-924" width="120" height="60" as="geometry" />
         </mxCell>
@@ -782,6 +785,15 @@
         </mxCell>
         <mxCell id="_B1_CrF3TVi6BJC2zmLu-23" value="Daily sales stastics" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1067" y="-700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1_CrF3TVi6BJC2zmLu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_B1_CrF3TVi6BJC2zmLu-26" target="_B1_CrF3TVi6BJC2zmLu-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1_CrF3TVi6BJC2zmLu-26" value="Log out" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="317" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1_CrF3TVi6BJC2zmLu-32" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="502" y="-1050" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
